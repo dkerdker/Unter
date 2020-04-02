@@ -35,6 +35,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillResignActive(_ application: UIApplication) {
         //add code
     }
+    
+    func applicationDidFinishLaunching(_ application: UIApplication) {
+        //add code
+    }
 
 }
 
