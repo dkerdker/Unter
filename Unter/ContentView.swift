@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("Unter")
+                .font(Font.custom("Rockwell", size: 50))
+                .bold()
+            Text("The lesser Uber app.")
+                .font(Font.custom("Georgia", size: 20))
+        }
     }
 }
 
